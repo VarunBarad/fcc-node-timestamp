@@ -26,4 +26,10 @@ app.get('/api/timestamp/', function (request, response, next) {
 
 app.get('/api/timestamp/:dateString', requestHandler);
 
-app.listen(8000);
+app.get('/', function (request, response) {
+	response.json({
+		project: 'fcc-node-timestamp'
+	});
+});
+
+app.listen(80);
