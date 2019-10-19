@@ -2,7 +2,7 @@
   "name": "fcc-node-timestamp",
   "version": "1.0.0",
   "description": "Timestamp microservice project for freeCodeCamp",
-  "repository": "https://varunbarad.com",
+  "repository": "https://github.com/VarunBarad/fcc-node-timestamp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
